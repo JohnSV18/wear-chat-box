@@ -14,3 +14,6 @@ def get_box_response(user_response):
     else:
         return "I'm not sure what you should wear"
 
+print("Welcome to the clothing chat box, where we tell \n" + 
+        "you what to wear based on the weather (Kind of)")
+
