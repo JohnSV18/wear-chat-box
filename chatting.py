@@ -17,3 +17,14 @@ def get_box_response(user_response):
 print("Welcome to the clothing chat box, where we tell \n" + 
         "you what to wear based on the weather (Kind of)")
 
+ while True:
+    user_response = input("How does it feel outside? (hot, cold, chilly) ?")
+
+    if user_response == 'done':
+        break
+
+    bot_response = get_bot_response(user_response)
+
+    print(bot_response)
+
+
